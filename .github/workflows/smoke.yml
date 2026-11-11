@@ -1,0 +1,8 @@
+name: smoke
+on: [push]
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "dependency-lint-ci repo alive; action implementation in progress"
